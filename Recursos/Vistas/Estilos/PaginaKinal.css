@@ -53,13 +53,32 @@ li a {
 
 
 /*Main*/
-.Contenedor-Patrocinadores h2{
-  text-align: center;
+
+section {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
 }
 
-.Patrocinadores-Imagen{
-    width: 100px;
-    height: 100px;
+h2 {
+  color: #111eca;
+}
+
+p {
+  color: #333;
+  line-height: 1.5;
+}
+
+/* Estilos adicionales para resaltar el contenido de proyectos */
+.section-highlight {
+  background-color: #f8f8f8;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 5px;
 }
 
 
