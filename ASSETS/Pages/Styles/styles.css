@@ -44,10 +44,25 @@ body {
   color: #333; 
 }
 
-h1, h2, p {
-  margin-bottom: 10px;
+
+section {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
 }
 
+h2 {
+  color: #111eca;
+}
+
+p {
+  color: #333;
+  line-height: 1.5;
+}
 .presentacion {
   background-color: #fdf3f3;
   border-radius: 10px;
