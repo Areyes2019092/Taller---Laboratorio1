@@ -10,8 +10,8 @@ header {
   height: 600px;
   background: #bc4e9c;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, hsla(262, 68%, 59%, 0.459), hsla(258, 77%, 62%, 0.768)), url(../Imagenes/Alumno.png);
-  background: linear-gradient(to right, hsla(239, 64%, 59%, 0.625), hsla(230, 63%, 85%, 0.833)), url(../Imagenes/Alumno.png);
+  background: -webkit-linear-gradient(to right, hsla(262, 68%, 59%, 0.459), hsla(258, 77%, 62%, 0.768)), url(../Resources/Alumno.png);
+  background: linear-gradient(to right, hsla(239, 64%, 59%, 0.625), hsla(230, 63%, 85%, 0.833)), url(../Resources/Alumno.png);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -73,7 +73,6 @@ p {
   line-height: 1.5;
 }
 
-/* Estilos adicionales para resaltar el contenido de proyectos */
 .section-highlight {
   background-color: #f8f8f8;
   padding: 10px;
@@ -81,6 +80,9 @@ p {
   border-radius: 5px;
 }
 
+.Contenedor-trabajo{
+  text-align: center;
+}
 
 /*Footer*/
 
